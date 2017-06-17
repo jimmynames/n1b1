@@ -1,0 +1,25 @@
+//Pre-Vendor
+@import 'vendor/normalise';
+
+// Partials
+@import 'partials/variables';
+@import 'partials/typography';
+@import 'partials/page';
+@import 'partials/ui';
+
+// Views
+
+
+// Partials
+@import 'partials/responsive.scss';
+@import 'partials/retina.scss';
+
+// Vendor
+@import 'vendor/aos';
+
+
+html, body {
+  font-size: 10px;
+  line-height: 1.4;
+  background: #fff;
+}
